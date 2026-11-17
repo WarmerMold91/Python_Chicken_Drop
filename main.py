@@ -88,7 +88,7 @@ def draw_menu():
   )
   screen.blit(exit_text, exit_rect)
 
-
+#draws the end screen message.
 def draw_end_screen(message):
   msg_text = big_font.render(message, True, (255, 255, 255))
   msg_rect = msg_text.get_rect(center=(SCREEN_WIDTH // 2, 160))
